@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    font-size: 40px;
+    color: white;
+    height: 100%;
+
+}
+
+.header {
+    width: 99%;
+    height: 75px;
+    top: 0px;
+    position: absolute;
+    background-color: rgb(64, 108, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.pildid {
+    background-color: slategray;
+    width: 75%;
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer {
+    position:absolute;
+    bottom: 0px;
+    width: 99%;
+    height:75px;
+    background-color: salmon;
+}
