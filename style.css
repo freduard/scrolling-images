@@ -3,6 +3,7 @@
     text-shadow: 2px 2px 2px black;
     color: white;
 
+
 }
 
 .header {
@@ -53,17 +54,14 @@
     margin-left: -8px;
     background-color: rgb(64, 108, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 50px;
 }
 
 .info {
     text-align: center;
-    vertical-align: middle;
-    border: solid red 2px;
 }
 
 .contact {
-    margin: auto;
-    text-align: right;
-    border: solid red 2px;
+    text-align: center;
 }
